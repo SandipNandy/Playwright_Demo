@@ -36,6 +36,7 @@ test.describe('New Todo', () => {
 
     // Create 2nd todo.
     await newTodo.fill(TODO_ITEMS[1]);
+    
     await newTodo.press('Enter');
 
     
