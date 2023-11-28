@@ -45,6 +45,7 @@ module.exports = defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
     {
+      
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
