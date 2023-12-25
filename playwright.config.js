@@ -56,6 +56,7 @@ module.exports = defineConfig({
     },
     {
       name: 'webkit',
+      
       use: { ...devices['Desktop Safari'] },
     },
 
